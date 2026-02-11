@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100%;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background: linear-gradient(to bottom, #bd2424, #03172c);
   background-repeat: no-repeat; /* Just in case */
   background-attachment: fixed;
 }
@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: rgb(65, 157, 22);
 
 }
 
@@ -32,8 +32,8 @@ body {
   line-height: 0.9;
     font-size: 3.5em;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  background: #00000055;
+  text-shadow: 2px 2px 4px rgba(44, 2, 2, 0.7);
+  background: #eaabab55;
 }
 
 .content-box {
@@ -52,17 +52,55 @@ table {
 }
 
 th, td {
-    border: 1px solid #ccc;
+    border: 1px solid #9e1717;
     padding: 12px;
     text-align: left;
 }
 
 th {
-    background-color: #f4f4f4;
+    background-color: #2e0f0f;
     font-weight: bold;
 }
 
 tr:nth-child(even) {
-    background-color: #fafafa;
+    background-color: #694141;
 }
 
+.devotional-form {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ef1818;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.devotional-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.devotional-form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #1b1e66;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.devotional-form button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #2a7f62;
+    color: rgb(140, 5, 5);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.devotional-form button:hover {
+    background-color: #14654a;
+}
